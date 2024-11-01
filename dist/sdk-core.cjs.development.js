@@ -571,7 +571,7 @@ var Token = /*#__PURE__*/function (_BaseCurrency) {
 
   return Token;
 }(BaseCurrency);
-var WETH9 = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH9', 'Wrapped Ether'), _WETH[exports.ChainId.SEPOLIA] = /*#__PURE__*/new Token(exports.ChainId.SEPOLIA, '0x60d3Cf2F97348c187A1B8bAa99AEf037aF275070', 18, 'WETH9', 'Wrapped Ether'), _WETH);
+var WETH9 = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH9', 'Wrapped Ether'), _WETH[exports.ChainId.SEPOLIA] = /*#__PURE__*/new Token(exports.ChainId.SEPOLIA, '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14', 18, 'WETH9', 'Wrapped Ether'), _WETH);
 
 /**
  * Returns the percent difference between the mid price and the execution price, i.e. price impact.
